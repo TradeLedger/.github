@@ -1,0 +1,5 @@
+{
+    "name": "Trade Ledger Branch Name Convention Checks",
+    "description": "Trade Ledger's workflow template to enforce branch name convention",
+    "iconName": "inspection-icon"
+}
