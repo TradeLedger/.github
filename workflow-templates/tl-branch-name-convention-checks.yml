@@ -1,4 +1,4 @@
-name: Trade Ledger Branch Name Convention Checks
+name: Branch Name Convention Checks
 
 on: [push, pull_request]
 
