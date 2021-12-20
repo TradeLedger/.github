@@ -10,7 +10,6 @@ jobs:
       - name: Branch name rules
         uses: deepakputhraya/action-branch-name@v1.0.0
         with:
-          regex: '(feature|bug|hotfix|release)\/(\w+-\d+-)?[\w-]+' # Allowed prefixes + optional JIRA ticket # + summary description
-          allowed_prefixes: 'feature/,bug/,hotfix/,release/'
+          regex: '(([A-Z]+-\d+-(HOTFIX:)?.+)|(RELEASE\/\d{4}\.\d\.\d+))' # mandatory JIRA ticket # + optional 'HOTFIX:' + summary description OR a release version
           ignore: master,main
           max_length: 80
