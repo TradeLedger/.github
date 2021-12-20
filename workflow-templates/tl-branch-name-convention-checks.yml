@@ -10,6 +10,6 @@ jobs:
       - name: Branch name rules
         uses: deepakputhraya/action-branch-name@v1.0.0
         with:
-          regex: '(([A-Z]+-\d+-(HOTFIX:)?.+)|(RELEASE\/\d{4}\.\d\.\d+))' # mandatory JIRA ticket # + optional 'HOTFIX:' + summary description OR a release version
+          regex: '(([A-Z]+-\d+-(HOTFIX:)?.+)|(RELEASE\/\d{4}\.\d\.\d+)(:.+)?)' # mandatory JIRA ticket # + optional 'HOTFIX:' + summary description OR a release version
           ignore: master,main
           max_length: 80
