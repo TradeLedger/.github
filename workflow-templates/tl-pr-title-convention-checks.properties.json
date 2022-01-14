@@ -1,0 +1,5 @@
+{
+    "name": "PR Title Convetnion Name Checks",
+    "description": "Enforces PR title convention",
+    "iconName": "inspection-icon"
+}
